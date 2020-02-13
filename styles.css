@@ -1,0 +1,89 @@
+body {
+    background: #130036;
+    color: white;
+    text-align: center;
+}
+
+#start {
+    font-size: 30px;
+    border: solid yellow 2px;
+    margin: 2% 40% 0% 40%;
+    cursor: pointer;
+}
+
+#dontfeed {
+    font-size: 30px;
+    border: solid yellow 2px;
+    margin: 2% 40% 0% 40%;
+    cursor: pointer;
+    display: none;
+}
+
+#container {
+    width: 700px;
+    height: 550px;
+    margin: 7% auto;
+    overflow: auto;
+    border: solid white 2px;
+    color: white;
+    align-content: center;
+    z-index: 200;
+}
+
+#feed {
+    display: none;
+}
+
+#wordbone {
+    display: none;
+}
+
+#wordchoco {
+    display: none;
+}
+
+#doge {
+    width: 25%;
+    margin: 2% 35%;
+}
+
+#confirm {
+    text-align: center;
+}
+
+#bone {
+    width: 70%;
+}
+
+.foodcontainer1 {
+    width: 150px;
+    height: 150px;
+    border: solid white 1px;
+    margin: 0% 0% 0% 10%;
+    padding: 0% 0% 0% 0%;
+    float: left;
+}
+
+#chocolate {
+    width: 70%;
+}
+
+.foodcontainer2 {
+    width: 150px;
+    height: 150px;
+    border: solid white 1px;
+    margin: 0% 0% 0% 35%;
+    padding: 0% 0% 0% 0%;
+    float: left;
+
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.grid .mainimg {
+    width: 50px;
+}
